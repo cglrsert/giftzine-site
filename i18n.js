@@ -44,7 +44,7 @@ const STRINGS = {
     f3_t: "15 hikâye modu", f3_p: "Aynı fotoğrafları aşk mektupları, romantik roman, masal, film, günlük, ünlü portresi ya da yılın özeti olarak anlat.",
     f4_t: "34 fotoğraf görünümü", f4_p: "Altın Yılbaşı, 35 mm, Polaroid, film noir, yumuşak couture, pop art — tek fotoğrafa ya da tüm dergiye, istediğin an geri alınabilir.",
     f5_t: "Baskıya hazır PDF", f5_p: "Vektörel yazılı 6 × 9 inç PDF; her fotoğraf 240 dpi için kontrol edilir. Bastır, paketle, hediye et.",
-    f6_t: "Instagram karüseli", f6_p: "Her sayfa okuma sırasıyla 4:5 slayt olur; Instagram kapak seçili yeni bir gönderiyle açılır.",
+    f6_t: "Instagram karuseli", f6_p: "Her sayfa okuma sırasıyla 4:5 slayt olur; Instagram kapak seçili yeni bir gönderiyle açılır.",
     f7_t: "Bir kez al, sınırsız dergi", f7_p: "Tek satın alma ile tüm koleksiyonlar ve özellikler senin. Sevdiğin herkes için dilediğin kadar dergi hazırla.",
     f8_t: "Gizlilik esaslı", f8_p: "Her şey iPhone’unda gerçekleşir. Hesap yok, yükleme yok, reklam yok, takip yok, filigran yok.",
     shots_kicker: "Uygulamanın içinden", shots_title: "Saniyeler içinde tasarlanır, istediğin gibi değişir",
