@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GiftZine — Photo Magazine Maker for iPhone</title>
+<meta name="description" content="Turn your photos into a personalized magazine — the gift they'll keep. 75 collections, 15 story modes, 34 photo looks, print-ready PDF and Instagram carousel. For iPhone.">
+<meta name="theme-color" content="#6B1F2A">
+<meta property="og:title" content="GiftZine — Your photos, made into a magazine">
+<meta property="og:description" content="A personalized magazine from your photos, designed in seconds. The gift they'll keep.">
+<meta property="og:image" content="media/poster-en.jpg">
+<meta name="apple-itunes-app" content="app-id=6828014390">
+<link rel="icon" href="media/icon-64.png">
+<link rel="apple-touch-icon" href="media/icon-180.png">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="./"><img src="media/icon-64.png" alt="" width="32" height="32"><span>Gift<i>Zine</i></span></a>
+  <nav>
+    <a href="#features" data-t="nav_features">Features</a>
+    <a href="support.html" data-t="nav_support">Support</a>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="en">EN</button><button data-lang="tr">TR</button>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="kicker" data-t="hero_kicker">The gift they'll keep</p>
+    <h1 data-t="hero_title">Your photos,<br>made into a magazine</h1>
+    <p class="lede" data-t="hero_lede">Pick who it's for, add your photos and type their name. GiftZine designs a complete, personal magazine in seconds — cover, stories and a letter written for them.</p>
+    <div class="cta">
+      <a class="btn" href="https://apps.apple.com/app/id6828014390" data-t="cta_store">View on the App Store</a>
+      <span class="price" data-t="cta_price">One purchase · Unlimited magazines · No subscription</span>
+    </div>
+    <ul class="stats">
+      <li><b>75</b><span data-t="stat_collections">collections</span></li>
+      <li><b>99</b><span data-t="stat_layouts">page layouts</span></li>
+      <li><b>15</b><span data-t="stat_modes">story modes</span></li>
+      <li><b>34</b><span data-t="stat_looks">photo looks</span></li>
+    </ul>
+  </div>
+  <div class="hero-film">
+    <div class="phone">
+      <video id="promo" autoplay muted loop playsinline preload="metadata" poster="media/poster-en.jpg">
+        <source src="media/promo-en.mp4" type="video/mp4">
+      </video>
+    </div>
+    <button class="sound" id="sound" data-t="sound_on">Sound on</button>
+  </div>
+</section>
+
+<section class="wall" aria-label="Collections">
+  <div class="wall-track" id="wall"></div>
+  <div class="wall-caption">
+    <p class="kicker" data-t="wall_kicker">75 collections</p>
+    <h2 data-t="wall_title">Every one completely different</h2>
+    <p data-t="wall_text">Couture and film, tabloid and storybook, vintage, pop art and 24 designs for Christmas — each with its own typography, palette, covers and pages.</p>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <article><h3 data-t="f1_t">Made for the one you love</h3><p data-t="f1_p">Partner, husband or wife, best friend, Mom, Dad, the whole family — or the dog. Over 3,500 original headlines, stories and letters, written for each relationship and occasion.</p></article>
+  <article><h3 data-t="f2_t">Every word is about them</h3><p data-t="f2_p">Add a nickname, the traits that sound like them, a true fact or a memory. Your own words are printed exactly as you wrote them; nothing is invented.</p></article>
+  <article><h3 data-t="f3_t">15 story modes</h3><p data-t="f3_p">Tell the same photos as love letters, a romantic novel, a fairytale, a film, a diary, a celebrity feature or a year in review.</p></article>
+  <article><h3 data-t="f4_t">34 photo looks</h3><p data-t="f4_p">Golden Christmas, 35 mm, Polaroid, film noir, soft couture, pop art — for one photo or the whole magazine, always reversible.</p></article>
+  <article><h3 data-t="f5_t">Print-ready PDF</h3><p data-t="f5_p">A 6 × 9 in PDF with vector type, every photo checked for 240 dpi. Print it, wrap it, give it.</p></article>
+  <article><h3 data-t="f6_t">Instagram carousel</h3><p data-t="f6_p">Every page becomes a 4:5 slide in reading order, and Instagram opens on a new post with the cover chosen.</p></article>
+  <article><h3 data-t="f7_t">Buy once, unlimited magazines</h3><p data-t="f7_p">One purchase includes every collection and feature. Make as many magazines as you like, for everyone you love.</p></article>
+  <article><h3 data-t="f8_t">Private by design</h3><p data-t="f8_p">Everything happens on your iPhone. No account, no uploads, no ads, no tracking, no watermark.</p></article>
+</section>
+
+<section class="shots" aria-label="Screenshots">
+  <p class="kicker" data-t="shots_kicker">Inside the app</p>
+  <h2 data-t="shots_title">Designed in seconds, yours to change</h2>
+  <div class="shot-row" id="shots"></div>
+</section>
+
+<section class="faq">
+  <h2 data-t="faq_title">Questions</h2>
+  <details><summary data-t="q1">What do I need?</summary><p data-t="a1">An iPhone with iOS 17 or later and 5 to 20 photos. Magazines are 8 to 20 pages.</p></details>
+  <details><summary data-t="q2">Is there a subscription?</summary><p data-t="a2">No. GiftZine is a single purchase with every collection and feature included, and you can make unlimited magazines.</p></details>
+  <details><summary data-t="q3">Where do my photos go?</summary><p data-t="a3">Nowhere. Photos are analyzed and stored on your iPhone and never uploaded. Nothing leaves the device unless you export it.</p></details>
+  <details><summary data-t="q4">Can I print it?</summary><p data-t="a4">Yes. Export a print-ready 6 × 9 in PDF and print it at home or with any print shop.</p></details>
+  <details><summary data-t="q5">Which languages?</summary><p data-t="a5">The app and every magazine are available in English and Turkish.</p></details>
+</section>
+
+<footer class="foot">
+  <div class="brand"><img src="media/icon-64.png" alt="" width="28" height="28"><span>Gift<i>Zine</i></span></div>
+  <nav><a href="support.html" data-t="nav_support">Support</a><a href="privacy.html" data-t="nav_privacy">Privacy</a><a href="mailto:caglar.sert1@gmail.com" data-t="nav_contact">Contact</a></nav>
+  <p class="fine">© 2026 Çağlar Sert. <span data-t="fine">App Store is a service mark of Apple Inc. Instagram is a trademark of Instagram, LLC; GiftZine is not affiliated with Instagram.</span></p>
+</footer>
+
+<script src="i18n.js"></script>
+<script>
+  const COVERS = ["holidayCouture","funnyTabloid","christmasCandy","coverStar","petSuperstar","merryAndBright","bestieMagazine","dearMom",
+    "holidayPop","cinematicRomance","loveEdit","retroBirthday","midnightChristmas","birthdayCelebrity","popBirthday","snowGlobe",
+    "gingerbreadHouse","victorianChristmas","christmasTimes","decemberLoveIssue","nordicChristmas","christmasSuperstars","heritageStories","atelierRose"];
+  function render(lang) {
+    const wall = document.getElementById("wall");
+    const row = COVERS.concat(COVERS).map(t => `<img loading="lazy" src="media/covers-${lang}/${t}.jpg" alt="" width="150" height="225">`).join("");
+    wall.innerHTML = `<div class="wall-row">${row}</div><div class="wall-row rev">${row}</div>`;
+    document.getElementById("shots").innerHTML = Array.from({length: 10}, (_, i) =>
+      `<img loading="lazy" src="media/shot-${lang}-${String(i + 1).padStart(2, "0")}.jpg" alt="" width="270" height="587">`).join("");
+    const v = document.getElementById("promo");
+    v.poster = `media/poster-${lang}.jpg`;
+    v.querySelector("source").src = `media/promo-${lang}.mp4`;
+    v.load(); v.play().catch(() => {});
+  }
+  GZ.init(render);
+  document.getElementById("sound").addEventListener("click", e => {
+    const v = document.getElementById("promo"); v.muted = !v.muted;
+    e.target.textContent = GZ.t(v.muted ? "sound_on" : "sound_off");
+    if (!v.muted) { v.currentTime = 0; v.play(); }
+  });
+</script>
+</body>
+</html>
